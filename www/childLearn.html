@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" integrity="sha256-a2tobsqlbgLsWs7ZVUGgP5IvWZsx8bTNQpzsqCSm5mk=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+ <!-- <header>
+        the navbar stuck to the tops of the page even when you scroll-->
+        <!-- <nav class="navbar fixed-top navbar-expand-lg"> -->
+          <!--if you press the 'portfoilo' in the to top left of the navbar it takes
+        you to the top of the page-->
+          <!-- <a class="navbar-brand" href="#pagetop">My Portfolio</a> -->
+          <!--The navbar collapses down to a button when the screen is small-->
+          <!-- <button class="navbar-toggler navbar-toggler-right text-uppercase bg-dark text-white rounded" data-toggle="collapse" data-target="#mobileMenu"> -->
+            <!-- <i class="fas fa-bars"></i> -->
+          <!-- </button> -->
+          <!--arranging the menu options in the collapsed menu -->
+          <!-- <div class="col-md-6 col-lg-5 ml-auto d-flex align-nav-items-center mt-4 mt-md-0"> -->
+            <!-- <div class="collapse navbar-collapse" id="mobileMenu"> -->
+              <!-- <ul class="navbar-nav ml-auto"> -->
+                <!--The 3 links in the menu-->
+                <!-- <a class="nav-link" href="indexProjects.html">Projects</a> -->
+              <!-- </li> -->
+              <!-- <li class="nav-item"> -->
+                <!-- <a class="nav-link" href="AboutMe.html">About me</a> -->
+              <!-- </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>  -->
+
+
+
+
+<header>
+    <div class="row">
+        <div class="navBar">
+            <div class="ten columns">
+                <div class="logo"><a href="index.html">Recycool</a></div>
+            </div>
+            <div class="two columns"></div>
+                <nav>
+                    <ul>
+                        <li class="navlink"><a href="childLearn.html">Learn</a></li>
+                        <li class="navlink"><a href="childPlay.html">Play</a></li>
+                        <li class="navlink"><a href="childAccount.html">Account</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </div>      
+</header>
+
+
+
+    <img class="sticky imgback" id= "happyBear" src="assets/1.png" alt="polarBearHappy" style="width: 17%">
+    <img class="sticky imgfront" id= "bear" src="assets/2.png" alt="polarBear" style="width: 17%">
+
+    <div class="tab">
+        <button class="tablinks" onclick="openSection(event, 'tab1')"><h2>What is recycling</h2></button>
+        <button class="tablinks" onclick="openSection(event, 'tab2')"><h2>Whats the point</h2></button>
+        <button class="tablinks" onclick="openSection(event, 'tab3')"><h2>What can you do?</h2> </button>
+    </div>
+            
+    <!-- Tab content -->
+    <div id="tab1" class="tabcontent">
+        <h1>What is recycling?</h1>
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <img class="speech" src="assets/speechbubble.png" alt="speechbubble" style="width: 60%">
+                    <div class="speech"><h2>Recycling is the process of 
+                            taking materials ready to be thrown  
+                            away and changing them into 
+                            reusable materials </h2></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <img class="infographic" src="assets/whatisrecycling.png" alt="infographic" style="width: 75%" >
+                </div>
+            </div>
+        </div>
+    </div>
+            
+    <div id="tab2" class="tabcontent">
+        <h1>Whats the point?</h1>
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <img class="infographic" src="assets/whatsthepoint1.png" alt="infographic" style="width: 75%" >
+                </div>
+            </div>
+        </div>
+    </div>
+            
+    <div id="tab3" class="tabcontent">
+        <h1>What can you do?</h1>
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <img class="infographic" src="assets/PlasticsBanner.png" alt="infographic" style="width: 75%" >
+                </div>
+            </div>   
+        </div>
+    </div>
+
+
+
+    <img class="sticky imgback" id= "happyBear" src="assets/1.png" alt="polarBearHappy" style="width: 17%">
+    <img class="sticky imgfront" id= "bear" src="assets/2.png" alt="polarBear" style="width: 17%">
+ 
+
+
+
+
+<footer>
+    <div class= "footer text-center mt-5 pt-5 pb-5">
+        <div class="container">
+        <!-- columns to organise the content on the footer -->
+            <div class="row">
+                <div class="four columns">
+                    <p>Plymouth Council<p>
+                </div>
+                <div class="four columns">
+                    <p class="text-uppercase">More Information</p>
+                </div>
+                <div class="four columns">
+                    <p class="text-uppercase">About This Page</p>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+                
+       
+</footer>
+<script src="js/script.js"></script>
+    
+</body>
+
+</html>
