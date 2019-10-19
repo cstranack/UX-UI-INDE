@@ -13,44 +13,47 @@
     <title>Document</title>
 </head>
 
-<header>
-        <div class="row">
-            <div class="navBar">
-                <div class="ten columns">
-                    <div class="logo">Recycool</div>
-                </div>
-                <div class="two columns"></div>
-                    <div class="headertext">
-                        <nav>
-                            <ul>
-                                <li ><a href="childLearn.html"><p>Learn</p></a></li>
-                                <li><a href="#"><p>Play</p></a></li>
-                                <li><a href="#"><p>Account</p></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-            </div>
-        </div>      
-    </header>
-
 <body>
-<div class="container">
+
+<header>
+<!-- creating the header -->
     <div class="row">
-        <h1>Welcome to Recycool</h1>
-    </div>
-</div>
-    <div class="container">
-        <div class="row">
-            <div class="ten column ">
-                <div class="btnContainer">
-                    <!--buttons for parent or child-->
-                    <button class="btn animated " ><a href="parentInfo.html"><p>Parent</p></a></button>
-                    <button class="btn animated " ><a href="childLearn.html"><p>child</p></a></button>  
-                </div>
+        <div class="navBar">
+            <!-- using columns to divide up the content in the navbar -->
+            <div class="ten columns">
+                <!-- logo remains in header  -->
+                <div class="logo"><a href="index.html">Recycool</a></div>
             </div>
         </div>
-        
+    </div>      
+</header>
+
+
+
+<div class="container">
+    <div class="btnContainer">
+        <div class="row">
+                <h1>Welcome to Recycool</h1>
+        </div>
+        <div class="row"><br></div>
+        <div class="row"> 
+            <p id="containerText">Select the relevant button. Children can play games and learn about recycling <br>
+                Parents can make accounts to monitor childrens progress</p>
+        </div>
+        <div class="row"><br></div>
+        <div class="row">
+            <div class="ten column ">
+                <!--buttons for parent or child-->
+                <button class="btn" ><a href="parentInfo.html"><p id="btnText">Parent</p></a></button>
+                <button class="btn1 btn" ><a href="childLearn.html"><p id="btnText">child</p></a></button>  
+            </div>
+        </div>
+        <div class="row">
+            <img class="recycleImg"  src="assets/recycleSymbol.png" alt="recycleSymbol" style="width: 17%">
+        </div>
     </div>
+    
+</div>
 
     
     <!--Sticky - makes the character remain on screen through scroll-->
@@ -59,32 +62,10 @@
         <img class="sticky imgfront" id= "bear" src="assets/2.png" alt="polarBear" style="width: 17%">
     </div>
 
+    <img class="penguin" src="assets/penguin.png" alt="penguin" style="width: 10%">
+
 
 </body>
-
-
-<footer>
-    <!--<div class= "footer text-center mt-5 pt-5 pb-5">
-    <div class="container">
-
-        <div class="row">
-            <div class="four columns">
-                <p>Plymouth Council<p>
-            </div>
-            <div class="four columns">
-                <p class="text-uppercase">More Information</p>
-            </div>
-            <div class="four columns">
-                <p class="text-uppercase">About This Page</p>
-            </div>
-        </div>
-    </div>-->
-</footer>
-
-
-
-
-
 
 
 <script src="js/script.js"></script>
